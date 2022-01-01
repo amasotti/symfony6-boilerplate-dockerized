@@ -1,4 +1,4 @@
-# Boilerplate Symfony5.4 (PHP 8.1) + Mariadb + Nginx
+# Boilerplate Symfony6.0.2 (PHP 8.1) + Mariadb + Nginx
 
 **Disclaimer**: This repo is suitable for testing/dev only. For use in production change the congigs in `docker-compose.yaml` and `.env`
 and delete them from the VCS.
@@ -13,4 +13,4 @@ and delete them from the VCS.
   * custom `default.conf`
 * Mariadb 10.7.1
 
-The Symfony skeleton is the standard (empty) Symfony 5.4 skeleton
+The Symfony skeleton is the standard (empty) Symfony 6.0.2 skeleton
