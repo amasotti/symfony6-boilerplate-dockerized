@@ -21,7 +21,7 @@ RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local
 RUN curl -sS https://get.symfony.com/cli/installer | bash
 RUN mv /root/.symfony/bin/symfony /usr/local/bin/symfony
 
-WORKDIR /var/www/html/symfony5-app
+WORKDIR /var/www/html/symfony6-app
 
 RUN /usr/bin/wait-for-it.sh database_sym5:3306 -- echo "Database is set up";
 
